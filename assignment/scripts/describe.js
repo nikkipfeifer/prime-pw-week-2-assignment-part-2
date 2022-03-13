@@ -139,10 +139,12 @@ let colorTwo = 'blue';
 let mix = true;
 
 // FIX - colorOne variable to 'blue'. colorTwo should be 'red'. 
-// We check to see if mix is true, it is, so both colorOne and colorTwo are 'purple'.
 
 if (mix === true) {
   colorOne = 'purple';
+
+// FIX - We check to see if mix is true, it is, so both colorOne and colorTwo are 'purple', not just colorOne.  
+
 }
 */
 
@@ -153,9 +155,13 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+ 
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
+
+// FIX - We replace || with && because of the "and" within the logical operations.
+
 }
 */
 
@@ -171,6 +177,9 @@ if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
+
+// FIX - the variable age should be listed first in the conditional and using the comparison operators >= followed by the minAge variable.
+
 }
 */
 
