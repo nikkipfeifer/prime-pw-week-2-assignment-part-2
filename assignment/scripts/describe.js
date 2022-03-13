@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to 'Dane'
+// We make an if conditional statement, if name equals 'Mary' the console says 'Hi, Mary!'
+// Then we make an else conditional statement if name doesn't equal Dane or Mary
+// We console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret
+// We make a variable called code and set it to 123 as a number
+// We check to see that if code is 123 and multiplied by 2, secret is 'super'
+// We check if code multiplied by 2 is greater than 250,then secret is 'duper'
+// We console log 'super' because code = 246
 
 //CODE
 /*
@@ -70,10 +71,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We starts with three variables, isStudent and set it to true, age is set it to number 34, 
+// and zip and set it to number 55407.
+// Then we check if the variable isStudent is true and that the variable zip is greater than 80000, 
+// we console log 'You're a student on the West Coast!'.
+// Then we check if the variable isStudent is false or younger than the age 30, we console log 'What are your hobbies?'
+// Then we check if the variable isStudent is true, we console log 'Welcome to Prime!'
+// If none of these conditonals are true then they are not a student and we console log 'How about the weather?'
 
 //CODE
 /*
@@ -133,6 +137,9 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+// FIX - colorOne variable to 'blue'. colorTwo should be 'red'. 
+// We check to see if mix is true, it is, so both colorOne and colorTwo are 'purple'.
 
 if (mix === true) {
   colorOne = 'purple';
